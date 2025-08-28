@@ -895,7 +895,7 @@
                 在這個 AI 世代，世界越來越快，但也越來越虛幻，我發現人們真正需要的是更真實、更溫暖的連結。
             </div>
             
-            <div class="about-text">
+            <div class="about-text"
                 數位慢食部落希望用科技創造更多人與人之間的溫暖時刻。
             </div>
             
@@ -941,7 +941,7 @@
     <section class="pricing" id="pricing">
         <div class="container">
             <h2 class="section-title">加入我們的數位慢食部落</h2>
-            <p class="section-subtitle">選擇最適合你的方案，開始這趟溫暖的慢生活之旅</p>
+            <p class="section-subtitle">這不是一個隨時都能加入的社群，是一段「一期限定」的慢生活旅程。每一季，我們只開放一批名額，一起完成一段為期 12 週的生活實驗。</p>
             
             <div class="pricing-grid">
                 <div class="pricing-card">
@@ -949,30 +949,14 @@
                     <div class="plan-price">US$15</div>
                     <p class="plan-period">每月</p>
                     <ul class="plan-features">
-                        <li>📦 每季手作 Zine + 神秘小物</li>
+                        <li>📦 每月手作 Zine + 神秘小物</li>
                         <li>🌍 24小時線上社群參與</li>
-                        <li>🗺️ 全球慢食地圖存取</li>
                         <li>🤝 實體聚會參與權</li>
                         <li>✨ 解鎖更多神秘共創活動</li>
                     </ul>
-                    <a href="#" class="cta-btn" onclick="handleSubscription('monthly')">選擇月付</a>
+                    <a href="#" class="cta-btn" onclick="handleSubscription('monthly')">我要加入這一季</a>
                 </div>
                 
-                <div class="pricing-card featured">
-                    <h3 class="plan-name">年付方案</h3>
-                    <div class="plan-price">US$150</div>
-                    <p class="plan-period">每年</p>
-                    <ul class="plan-features">
-                        <li>📦 每季手作 Zine + 神秘小物</li>
-                        <li>🌍 24小時線上社群參與</li>
-                        <li>🗺️ 全球慢食地圖存取</li>
-                        <li>🤝 實體聚會參與權</li>
-                        <li>🎁 年度限定特別禮品</li>
-                        <li>✨ 解鎖更多神秘共創活動</li>
-                    </ul>
-                    <a href="#" class="cta-btn" onclick="handleSubscription('yearly')">選擇年付</a>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -982,10 +966,10 @@
             <div class="cta-content">
                 <h2 class="cta-title">準備好慢下來了嗎？</h2>
                 <p style="font-size: 1.1em; margin-bottom: 20px;">
-                    加入我們，在這個快速的世界裡找到屬於你的溫暖節奏
+                    每一季結束後，我們會把每位同伴的收穫整理成一份部落 Zine，留下屬於這一季的共同記憶。下一季，會是全新的主題、全新的夥伴。如果你想和我們一起慢下來，這一季的機會，只有一次。
                 </p>
                 <p style="color: #666666; margin-bottom: 30px;">
-                    現在就開始你的數位慢食之旅，與全球華人一起重新定義生活的美好
+                    現在就開始你的數位慢食之旅，在這個快速的世界裡找到屬於你的溫暖節奏
                 </p>
                 <a href="#pricing" class="cta-btn cta-large">立即加入數位慢食部落</a>
             </div>

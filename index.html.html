@@ -585,6 +585,29 @@
                 padding: 10px 20px;
             }
         }
+        /* --- Trial link + note --- */
+.link-ghost {
+  background: transparent;
+  color: #C26248;
+  border: 1px solid #e8cfc7;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+.link-ghost:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(194,98,72,.12); }
+
+.dual-cta { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+
+.subtle-note {
+  color:#7a7a7a; font-size:.95em; margin-top:12px;
+}
+.badge {
+  display:inline-block; padding:2px 8px; border-radius:999px;
+  background:#fff4f1; color:#C26248; font-weight:600; font-size:.9em; border:1px solid #ffdcd2;
+}
+
     </style>
 </head>
 <body>
@@ -615,7 +638,15 @@
                     一起用現代的方式，重新找回沒有手機時代的那種溫暖。<br>
         
                 </p>
-                <a href="#features" class="cta-btn" style="font-size: 1.1em; padding: 15px 30px;">開始我的慢食之旅</a>
+                <div class="dual-cta">
+  <a href="#features" class="cta-btn" style="font-size:1.1em;padding:15px 30px;">開始我的慢食之旅</a>
+  <a href="https://discord.com/invite/PRBgGFse" class="link-ghost" target="_blank" rel="noopener noreferrer">體驗通道</a>
+</div>
+<p class="subtle-note">
+  進入體驗通道後，你會先是 <span class="badge">路過旅人</span>。正式的慢食部落計畫之後開放報名；
+  我會寄信通知，讓想真正參與挑戰、共創、或小誌計畫的人能正式進駐，成為數位慢食部落的村民。
+</p>
+
             </div>
         </div>
     </section>
@@ -954,12 +985,17 @@
                     <div class="plan-price">US$??</div>
                     <p class="plan-period">每季</p>
                     <ul class="plan-features">
-                        <li>📦 每月部落小誌 + 神秘小物</li>
+                        <li>📦 部落小誌 + 神秘小物</li>
                         <li>🌍 24小時線上社群參與</li>
                         <li>🗺️ 全球慢食地圖存取</li>
                         <li>🤝 實體聚會參與權</li>
                         <li>✨ 解鎖更多神秘共創活動</li>
                     </ul>
+                    <p class="subtle-note">
+  還在觀望？先走 <a href="https://discord.com/invite/PRBgGFse" target="_blank" rel="noopener noreferrer" style="color:#C26248;font-weight:600;">體驗通道</a>，
+  當 <span class="badge">路過旅人</span>。正式招募開啟時，我會寄信通知你加入新一季的慢食部落。
+</p>
+
                    <a href="https://tally.so/r/w8j51Y" class="cta-btn" target="_blank" rel="noopener noreferrer">
   我要加入這一季
 </a>

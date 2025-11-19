@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>數位慢食部落 Slow Tribe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Quicksand:wght@300;400;500;600;700&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: '#F4EDE2',
+              'brand-blue': '#64A9D9',
+              'brand-text': '#1C1C1C',
+              'accent-green': '#96CAC8',
+              'accent-beige': '#E2C7A8',
+            },
+            fontFamily: {
+              // Zen Maru Gothic for rounded Chinese, Quicksand for rounded English
+              sans: ['"Quicksand"', '"Zen Maru Gothic"', '"Noto Sans TC"', 'sans-serif'],
+              serif: ['"Noto Serif TC"', 'serif'],
+            },
+            backgroundImage: {
+              'paper-texture': "url('https://www.transparenttextures.com/patterns/cream-paper.png')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F4EDE2;
+        color: #1C1C1C;
+        scroll-behavior: smooth;
+        /* Explicitly force the rounded font stack */
+        font-family: "Quicksand", "Zen Maru Gothic", "Noto Sans TC", sans-serif;
+      }
+      /* Hide scrollbar for clean look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F4EDE2; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #E2C7A8; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64A9D9; 
+      }
+      
+      .hand-drawn-border {
+        border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
